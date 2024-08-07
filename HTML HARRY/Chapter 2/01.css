@@ -1,0 +1,28 @@
+.green
+{
+background-color: greenyellow;
+color: rgb(1, 14, 14);
+height: 125px;
+}
+.red
+{
+background-color: red;
+color: rgb(13, 10, 9);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(i.png);
+
+   background-repeat:repeat-x ;
+   background-repeat:repeat-y ;
+   background-repeat:space ;
+   background-repeat: no-repeat;
+
+
+}
+

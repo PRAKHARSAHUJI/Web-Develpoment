@@ -1,0 +1,37 @@
+/* .container
+{
+    background-color: red;
+
+    color: rgb(231, 231, 118);
+    width: 400px;
+    height: 400px;
+ background-image: url(Screenshot\ 2024-02-07\ at\ 12.16.32\ PM.png);
+background-repeat: no-repeat;
+background-size:cover;
+} */
+
+
+/* .container
+{
+    background-color: red;
+    color: rgb(231, 231, 118);
+    width: 400px;
+    height: 400px;
+ background-image: url(Screenshot\ 2024-02-07\ at\ 12.16.32\ PM.png);
+background-repeat: no-repeat;
+background-size:contain;
+} */
+
+
+
+/* .container
+{
+    background-color: red;
+
+    color: rgb(231, 231, 118);
+    width: 400px;
+    height: 400px;
+ background-image: url(Screenshot\ 2024-02-07\ at\ 12.16.32\ PM.png);
+background-repeat: no-repeat;
+background-size:auto;
+} */
