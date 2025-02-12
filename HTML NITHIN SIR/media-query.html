@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header,nav,main,aside,footer{
+            border: 2px solid black;
+            margin: 5px;
+            text-align: center;
+            padding: 5 px;
+        }
+        body
+        {
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr;
+            
+        }
+        @media screen and (orientation:landscape) {
+            header
+            {
+                grid-row: 1;
+                grid-column: 1/4;
+                height: 100px;
+            }
+            nav
+            {
+                grid-row: 2;
+                grid-column: 1;
+                /* height: 100px; */
+            }
+            main
+            {
+                grid-row: 2;
+                grid-column: 2;
+                height: 400px;
+            }
+            aside
+            {
+                grid-row: 2;
+                grid-column: 3;
+            }
+            footer
+            {
+                grid-row: 3;
+                grid-column: 1/4;
+                 height: 100px;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        HEADER
+    </header>
+
+    <nav>
+        NAV
+    </nav>
+
+    <main>
+        MAIN
+    </main>
+
+    <aside>
+        ASIDE
+    </aside>
+
+    <footer>
+        FOOTER
+    </footer>
+</body>
+</html>

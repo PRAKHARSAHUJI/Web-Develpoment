@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input:required  + span
+        {
+            display: inline;
+            color: red;
+        }
+        input:required
+        {
+            border: 1px solid red;
+        }
+        input:valid
+        {
+            border: 1px solid green;
+        }
+        input~div
+        {
+            color: red;
+        }
+        input:optional+span
+        {
+            display: none;
+        }
+        input:valid+span
+        {
+            display: none;
+        }
+        /* input:valid + span + div {
+            display: none;
+        } */
+        
+        input:valid ~div {
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form>
+        <dl>
+            <dt>Username</dt>
+            <dd>
+                <input type="text" name="Username" required><span>*</span>
+                <div>
+                   Username is required
+                </div>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Password</dt>
+            <dd>
+                <input type="password" name="Userpass" required><span>*</span>
+                <div>
+                    Password is required
+                </div>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Age</dt>
+            <dd>
+                <input type="text" name="txtUserAge"><span>*</span>
+                <div>
+                    Age is required
+                </div>
+            </dd>
+        </dl>
+    </form>
+
+</body>
+</html>
