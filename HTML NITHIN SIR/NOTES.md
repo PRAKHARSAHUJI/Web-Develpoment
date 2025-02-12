@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # NITHIN SIR NOTES 
 
+=======
+>>>>>>> fb04373 (NITHIN SIR NOTES)
 # Client Server Architecture
 
 1. Client is a computer which is capable of sending request to other computers present in interenet.
